@@ -1,18 +1,15 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+<!--    <el-button type="primary">按钮</el-button>-->
+    <div style="font-size: 18px">欢迎大家一起做Vue</div>
+    <div style="font-size: 18px; color: red; margin: 10px 0">加油加油</div>
+    <div style="font-size: 18px">一路向前</div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'HomeView',
-  components: {
-    HelloWorld
-  }
 }
 </script>
